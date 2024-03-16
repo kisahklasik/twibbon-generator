@@ -1,0 +1,209 @@
+body {
+background-color: #f0f0f2;
+margin: 0;
+padding: 0;
+overflow: hidden;
+font-family: Courier, monospace;  
+font-style: normal;
+font-weight: 100;
+}
+main {
+width: 600px;
+margin: 5em auto;
+padding: 2em;
+background-color: #fdfdff;
+box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+} 
+a:link, a:visited {
+color: white;
+text-decoration: none;
+}
+.btn {
+background-color: #008CBA;
+border: none;
+border-radius: 0.5em;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 12px;
+margin: 4px 2px;
+cursor: pointer;
+}   
+canvas {
+width: 100%;
+height: auto;
+}
+img {
+width: 100%;
+height: auto;
+top: 0px;
+left: 0px;
+}
+button {
+background-color: #f44336; /* Green */
+border: none;
+border-radius: 0.5em;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 12px;
+margin: 4px 2px;
+cursor: pointer;
+}
+.green {background-color: #04AA6D;} /* Green */
+.blue {background-color: #008CBA;} /* Blue */
+.red {background-color: #f44336;} /* Red */
+.gray {background-color: #e7e7e7; color: black;} /* Gray */
+.black {background-color: #555555;} /* Black */
+/*
+input {
+margin-top: 1rem;
+}
+input::file-selector-button {
+font-weight: bold;
+color: black;
+padding: 0.5em;
+border: thin solid grey;
+border-radius: 3px;
+}
+input[type="file"]::file-selector-button:hover {
+background-color: #fff;
+border: thin solid grey;
+}
+*/
+
+*::selection {
+background: #e91e63;
+color: #fff;
+}
+
+*::-moz-selection {
+background: #e91e63;
+color: #fff;
+}
+.copyright {
+position: fixed;
+right: 15px;
+bottom: 15px;
+font-family: "Roboto";
+}
+.copyright span {
+line-height: 36px;
+color: thin solid grey;
+margin-right: 10px;
+font-weight: 300;
+}
+.copyright span a {
+font-weight: 400;
+text-decoration: none;
+color: #ea4c89;
+}
+.copyright .posterwall {
+width: 30px;
+height: 30px;
+display: block;
+background: url("https://avatars.githubusercontent.com/u/135429317?v=4");
+background-size: cover;
+border-radius: 50%;
+border: thin solid grey;
+float: right;
+}
+
+#preloader {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #fff;
+/* change if the mask should have another color then white */
+z-index: 99;
+/* makes sure it stays on top */
+}
+
+#status {
+width: 200px;
+height: 200px;
+position: absolute;
+left: 50%;
+/* centers the loading animation horizontally one the screen */
+top: 50%;
+/* centers the loading animation vertically one the screen */
+background-image: url(https://posterwall.netlify.app/assets/img/status.gif);
+/* path to your loading animation */
+background-repeat: no-repeat;
+background-position: center;
+margin: -100px 0 0 -100px;
+/* is width and height divided by two */
+}
+
+#okCookie{
+background-color:#F2F2F2;
+color:#333333;
+position:absolute;
+bottom:0;
+left:0;
+width:100%;
+padding:10px;
+font-family:sans-serif;
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box; 
+box-sizing: border-box;
+border-top:1px solid #ccc;
+z-index:10;
+}
+
+#okCookie p{margin:0 0 10px 0; float:left; padding:5px 0px;}
+
+#okCookie #okClose, #okCookie #okCprivacy{
+padding:5px 20px;
+float:right;
+margin-left:10px;
+text-decoration:none;
+border-radius:3px;
+color:white;
+}
+
+#okCookie #okClose{
+background-color:#39B54A;
+text-shadow:0px 1px 1px #507F2B;
+box-shadow:inset 0px -1px 1px #507F2B;
+}
+
+#okCookie #okClose:hover{background-color:#42ce55}
+
+#okCookie #okCprivacy{
+background-color:#8D9499;
+text-shadow:0px 1px 1px #63666B;
+box-shadow:inset 0px -1px 1px #63666B;
+}
+
+#okCookie #okCprivacy:hover{background-color:#a0a8ae}
+
+.okcBeginAnimate{
+-webkit-animation: myfirst 2s; 
+animation: myfirst 2s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+from {opacity: 0;}
+to {opacity: 1;}
+} 
+
+@media (max-width: 700px) {
+main {
+margin: 0 auto;
+width: auto;
+}
+}
