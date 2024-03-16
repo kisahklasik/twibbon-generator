@@ -1,0 +1,25 @@
+{
+"profilePictureName": "posterwall.png", 
+"overlaySource": "assets/img/rahmen/image.png", 
+"backgroundColor": "#e7e7e7", 
+"rootElementId": "app", 
+"logoSources": [
+"",
+"",
+"",
+"",
+""
+],
+"messages": {
+"status": {
+"startup": "Pilih foto terbaik Anda.", 
+"uploading": "File sedang diimpor, harap tunggu...", 
+"processing": "File sedang diproses, harap tunggu...", 
+"done": "Twibbon berhasil dibuat!"
+}, 
+"buttons": {
+"download": "Download", 
+"newImage": "Hapus"
+}
+}
+}
