@@ -75,7 +75,7 @@ color: transparent;
 visibility: hidden;
 }
 .custom-file-input::before {
-content: "▲ Upload Foto";
+content: "⛰️ Upload Foto";
 color: #fff;
 display: inline-block;
 background: #555555;
