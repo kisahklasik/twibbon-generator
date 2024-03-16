@@ -7,6 +7,7 @@ font-family: Courier, monospace;
 font-style: normal;
 font-weight: 100;
 }
+
 main {
 width: 600px;
 margin: 5em auto;
@@ -14,10 +15,12 @@ padding: 2em;
 background-color: #fdfdff;
 box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
 } 
+
 a:link, a:visited {
 color: white;
 text-decoration: none;
 }
+
 .btn {
 background-color: #008CBA;
 border: none;
@@ -31,16 +34,19 @@ font-size: 12px;
 margin: 4px 2px;
 cursor: pointer;
 }   
+
 canvas {
 width: 100%;
 height: auto;
 }
+
 img {
 width: 100%;
 height: auto;
 top: 0px;
 left: 0px;
 }
+
 button {
 background-color: #f44336; /* Green */
 border: none;
@@ -54,6 +60,7 @@ font-size: 12px;
 margin: 4px 2px;
 cursor: pointer;
 }
+
 .green {background-color: #04AA6D;} /* Green */
 .blue {background-color: #008CBA;} /* Blue */
 .red {background-color: #f44336;} /* Red */
@@ -63,12 +70,10 @@ cursor: pointer;
 /*custom inpu file*/
 .custom-file-input {
 color: transparent;
-
 }
 .custom-file-input::-webkit-file-upload-button {
 visibility: hidden;
 }
-
 .custom-file-input::before {
 content: "▲ Upload Foto";
 color: #fff;
@@ -86,7 +91,6 @@ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1p
 }
 .custom-file-input:focus {
 outline: none !important;
-
 }
 .custom-file-input:active::before {
 transform: scale(.9) translate(0px, 2px);
@@ -97,11 +101,11 @@ box-shadow:  inset 4px 4px 5px 0px rgba(0, 0, 0, 0.20);
 background: #e91e63;
 color: #fff;
 }
-
 *::-moz-selection {
 background: #e91e63;
 color: #fff;
 }
+
 .copyright {
 position: fixed;
 right: 15px;
@@ -141,7 +145,6 @@ background-color: #fff;
 z-index: 99;
 /* makes sure it stays on top */
 }
-
 #status {
 width: 200px;
 height: 200px;
