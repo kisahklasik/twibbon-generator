@@ -1,6 +1,6 @@
 let shareData = {
 title: 'BERA APP',
-text: 'Bera App',
+text: 'Twibbon App',
 url: 'https://bera.pages.dev/',
 }
 
