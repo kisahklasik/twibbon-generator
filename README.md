@@ -1,2 +1,0 @@
-# twibbon-generator
-Twibbon Generator
