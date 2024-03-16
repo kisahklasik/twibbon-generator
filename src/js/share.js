@@ -1,7 +1,7 @@
 let shareData = {
-        title: 'POSTERWALL',
-        text: 'Posterwall App',
-        url: 'https://posterwall.netlify.app/',
+        title: 'BERA APP',
+        text: 'Bera App',
+        url: 'https://bera.pages.dev/',
       }
 
       const btn = document.querySelector('em');
@@ -10,7 +10,7 @@ let shareData = {
       btn.addEventListener('click', () => {
         navigator.share(shareData)
           .then(() =>
-            resultPara.textContent = 'POSTERWALL shared successfully'
+            resultPara.textContent = 'Twibbon shared successfully'
           )
           .catch((e) =>
             resultPara.textContent = 'Error: ' + e
@@ -18,4 +18,4 @@ let shareData = {
       });
 
 // copy
-posterWall("", "rgba(255,255,255,.5)");
+bera("", "rgba(255,255,255,.5)");
