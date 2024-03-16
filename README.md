@@ -1,4 +1,4 @@
-# profilepicture-generator
+# Twibbon Generator
 
 ## Usage
 You need to host the files on a server. (For development use something like `$ php -S localhost:8000` and go to `localhost:8000/index.html` in your browser)
