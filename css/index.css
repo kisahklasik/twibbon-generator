@@ -36,8 +36,8 @@ transition-duration: 0.4s;
 cursor: pointer;
 }   
 .btn:hover {
-background-color: #04AA6D;
-color: white;
+background-color: #e7e7e7;
+color: black;
 }
 canvas {
 width: 100%;
