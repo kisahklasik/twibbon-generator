@@ -69,6 +69,7 @@ cursor: pointer;
 .green {background-color: #04AA6D;} /* Green */
 .blue {background-color: #008CBA;} /* Blue */
 .red {background-color: #f44336;font-family: Courier, monospace;} /* Red */
+.red:hover {background-color: #fff;color: black;}
 .gray {background-color: #e7e7e7; color: black;} /* Gray */
 .black {background-color: #555555;} /* Black */
 
