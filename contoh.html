@@ -7,31 +7,28 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style type="text/css">
-    body {
-        background-color: #f0f0f2;
-        margin: 0;
-        padding: 0;
-        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        
-    }
-    div {
-        width: 600px;
-        margin: 5em auto;
-        padding: 2em;
-        background-color: #fdfdff;
-        border-radius: 0.5em;
-        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
-    }
-    a:link, a:visited {
-        color: #38488f;
-        text-decoration: none;
-    }
-    @media (max-width: 700px) {
-        div {
-            margin: 0 auto;
-            width: auto;
+    @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+        html {
+            display: grid;
+            min-height: 100%
         }
-    }
+        body {
+            display: grid
+        }
+        .container {
+            position: relative;
+            margin: auto;
+            overflow: hidden;
+            width: 600px;
+            height: 550px
+        }
+        footer {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            text-transform: uppercase;
+            padding: 10px;
+            font-family:Lato,sans-serif}footer p{letter-spacing:3px;font-size:10px}footer a{color:#aaa;text-decoration:none}footer a:hover{color:#7d7d7d}
     </style>    
 </head>
 
