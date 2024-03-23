@@ -131,7 +131,7 @@ padding: 10px 22px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
-font-size: 16px;
+font-weight: 400;
 margin: 4px 2px;
 cursor: pointer;
 }
@@ -151,7 +151,7 @@ padding: 10px 22px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
-font-size: 16px;
+font-weight: 400;
 margin: 4px 2px;
 cursor: pointer;
 }
