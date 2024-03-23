@@ -66,7 +66,7 @@ color: transparent;
 visibility: hidden;
 }
 .custom-file-input::before {
-content: "▲ Upload Foto";
+content: "▲ UPLOAD FOTO";
 color: #fff;
 display: inline-block;
 background: #555555;
