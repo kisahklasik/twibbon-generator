@@ -14,7 +14,7 @@ margin: 5em auto;
 padding: 2em;
 }
 footer {
-position: absolute;
+position: fixed;
 bottom: 0;
 right: 0;
 text-transform: uppercase;
