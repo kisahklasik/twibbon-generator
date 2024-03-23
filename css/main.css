@@ -61,12 +61,10 @@ color: #fff;
 /*custom inpu file*/
 .custom-file-input {
 color: transparent;
-
 }
 .custom-file-input::-webkit-file-upload-button {
 visibility: hidden;
 }
-
 .custom-file-input::before {
 content: "▲ Upload Foto";
 color: #fff;
@@ -84,13 +82,12 @@ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1p
 }
 .custom-file-input:focus {
 outline: none !important;
-
 }
 .custom-file-input:active::before {
 transform: scale(.9) translate(0px, 2px);
-box-shadow:  inset 4px 4px 5px 0px rgba(0, 0, 0, 0.20);
-	   
+box-shadow:  inset 4px 4px 5px 0px rgba(0, 0, 0, 0.20);	   
 }
+
 /* LOADING */
 #preloader {
 position: fixed;
@@ -118,6 +115,7 @@ background-position: center;
 margin: -100px 0 0 -100px;
 /* is width and height divided by two */
 }
+
 /* BUTTON */
 button {
 background-color: #04AA6D; /* Green */
