@@ -117,6 +117,19 @@ margin: -100px 0 0 -100px;
 }
 
 /* BUTTON */
+.btn {
+background-color: #04AA6D; /* Green */
+border: none;
+border-radius: 0.5em;
+color: white;
+padding: 10px 22px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
 button {
 background-color: #04AA6D; /* Green */
 border: none;
@@ -132,7 +145,7 @@ cursor: pointer;
 }
 .green {background-color: #04AA6D;} /* Green */
 .blue {background-color: #008CBA;} /* Blue */
-.red {background-color: #f44336;} /* Red */
+.red {background-color: #f44336;font-family: Lato,sans-serif} /* Red */
 .gray {background-color: #e7e7e7; color: black;} /* Gray */
 .black {background-color: #555555;} /* Black */
 @media (max-width: 700px) {
