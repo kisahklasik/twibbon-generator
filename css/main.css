@@ -7,7 +7,7 @@ min-height: 100%
 }
 body {
 display: grid
-font-family: 'Fira Sans', sans-serif;
+font-family: 'Fira Sans', sans-serif
 font-size: 1rem;
 }
 .container {
