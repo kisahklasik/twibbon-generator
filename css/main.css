@@ -38,12 +38,23 @@ canvas {
 width: 100%;
 height: auto;
 }
+
 /* IMAGE */
 img {
 width: 100%;
 height: auto;
 top: 0px;
 left: 0px;
+}
+
+/* COPY PASTE */
+*::selection {
+background: #e91e63;
+color: #fff;
+}
+*::-moz-selection {
+background: #e91e63;
+color: #fff;
 }
 
 /* INPUT */
