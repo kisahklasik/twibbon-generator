@@ -125,7 +125,6 @@ border-radius: 0.5em;
 color: white;
 padding: 10px 22px;
 text-align: center;
-font-family: Lato,sans-serif;
 text-decoration: none;
 display: inline-block;
 font-size: 16px;
@@ -146,7 +145,6 @@ border-radius: 0.5em;
 color: white;
 padding: 10px 22px;
 text-align: center;
-font-family: Lato,sans-serif;
 text-decoration: none;
 display: inline-block;
 font-size: 16px;
@@ -155,7 +153,7 @@ cursor: pointer;
 }
 .green {background-color: #04AA6D;} /* Green */
 .blue {background-color: #008CBA;} /* Blue */
-.red {background-color: #f44336;font-family: Lato,sans-serif;} /* Red */
+.red {background-color: #f44336;} /* Red */
 .gray {background-color: #e7e7e7; color: black;} /* Gray */
 .black {background-color: #555555;} /* Black */
 @media (max-width: 700px) {
