@@ -135,12 +135,9 @@ margin: 4px 2px;
 font-size: 12px;
 cursor: pointer;
 }
-.btn:active::before {
-transform: scale(.9) translate(0px, 2px);
-box-shadow:  inset 4px 4px 5px 0px rgba(0, 0, 0, 0.20);	   
-}
-.btn:focus {
-outline: none !important;
+.btn:hover {
+background-color: #e7e7e7;
+color: black;
 }
 button {
 background-color: #04AA6D; /* Green */
