@@ -150,6 +150,7 @@ text-decoration: none;
 display: inline-block;
 margin: 4px 2px;
 font-size: 12px;
+letter-spacing: 1px;
 cursor: pointer;
 }
 .green {background-color: #04AA6D;} /* Green */
