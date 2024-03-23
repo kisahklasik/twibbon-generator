@@ -7,7 +7,6 @@ min-height: 100%
 }
 body {
 display: grid
-font-family: 'Fira Sans', sans-serif;
 }
 .container {
 position: relative;
@@ -16,6 +15,7 @@ width: 600px;
 margin: 5em auto;
 padding: 2em;
 letter-spacing: 1px;
+font-family: 'Fira Sans', sans-serif;
 }
 footer {
 position: fixed;
@@ -80,6 +80,7 @@ white-space: nowrap;
 -webkit-user-select: none;
 cursor: pointer;
 font-weight: 400;
+font-family: 'Fira Sans', sans-serif;
 border-radius: 0.5em;
 outline: none;
 box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
@@ -131,6 +132,7 @@ text-align: center;
 text-decoration: none;
 display: inline-block;
 font-size: 16px;
+font-family: 'Fira Sans', sans-serif;
 margin: 4px 2px;
 cursor: pointer;
 }
@@ -151,12 +153,13 @@ text-align: center;
 text-decoration: none;
 display: inline-block;
 font-size: 16px;
+font-family: 'Fira Sans', sans-serif;
 margin: 4px 2px;
 cursor: pointer;
 }
 .green {background-color: #04AA6D;} /* Green */
 .blue {background-color: #008CBA;} /* Blue */
-.red {background-color: #f44336;} /* Red */
+.red {background-color: #f44336;font-family: 'Fira Sans', sans-serif;} /* Red */
 .gray {background-color: #e7e7e7; color: black;} /* Gray */
 .black {background-color: #555555;} /* Black */
 @media (max-width: 700px) {
