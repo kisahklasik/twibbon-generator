@@ -132,6 +132,7 @@ text-align: center;
 text-decoration: none;
 display: inline-block;
 margin: 4px 2px;
+font-size: 12px;
 cursor: pointer;
 }
 .btn:active::before {
@@ -151,6 +152,7 @@ text-align: center;
 text-decoration: none;
 display: inline-block;
 margin: 4px 2px;
+font-size: 12px;
 cursor: pointer;
 }
 .green {background-color: #04AA6D;} /* Green */
