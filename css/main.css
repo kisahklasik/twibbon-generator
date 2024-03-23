@@ -122,8 +122,9 @@ margin: -100px 0 0 -100px;
 button {
 background-color: #04AA6D; /* Green */
 border: none;
+border-radius: 0.5em;
 color: white;
-padding: 15px 32px;
+padding: 10px 22px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
