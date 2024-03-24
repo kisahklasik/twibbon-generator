@@ -47,6 +47,19 @@ $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that 
 $('body').delay(350).css({'overflow':'visible'});
 })
 </script>
-
+<script>
+    let quotes = [];
+    let url = 'https://cdn.statically.io/gh/lakuapik/quotes-indonesia/master/raw/quotes.min.json';
+    function updateQuote() {
+      const random = Math.floor(Math.random() * quotes.length);
+      const quote = quotes[random];
+      document.querySelector('#quote').innerHTML = quote.quote;
+      document.querySelector('#by').innerHTML = quote.by;
+    }
+    fetch(url).then(res => res.json()).then(data => {
+      quotes = data;
+      updateQuote();
+    });
+  </script>
 </body>
 </html>
