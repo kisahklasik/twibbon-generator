@@ -212,11 +212,11 @@ hr {
 }
 
 hr::after {
-  background: #fff;
-  content: '§';
-  padding: 0 4px;
-  position: relative;
-  top: -13px;
+background: #fff;
+content: '❇️';
+padding: 0 4px;
+position: relative;
+top: -13px;
 }
 
 
