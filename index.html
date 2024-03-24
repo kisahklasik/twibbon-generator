@@ -52,5 +52,16 @@ $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that 
 $('body').delay(350).css({'overflow':'visible'});
 })
 </script>
+<script>
+function paste() {
+  let pasteText = document.querySelector("#output");
+  pasteText.focus();
+  document.execCommand("paste");
+  console.log(pasteText.textContent);
+}
+
+document.querySelector("#paste").addEventListener("click", paste);
+
+</script>
 </body>
 </html>
