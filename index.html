@@ -56,21 +56,5 @@ $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that 
 $('body').delay(350).css({'overflow':'visible'});
 })
 </script>
-    <!--
-<script>
-    let quotes = [];
-    let url = 'https://bera.pages.dev/config/quotes.json';
-    function updateQuote() {
-      const random = Math.floor(Math.random() * quotes.length);
-      const quote = quotes[random];
-      document.querySelector('#quote').innerHTML = quote.quote;
-      document.querySelector('#by').innerHTML = quote.by;
-    }
-    fetch(url).then(res => res.json()).then(data => {
-      quotes = data;
-      updateQuote();
-    });
-  </script>
-    -->
 </body>
 </html>
