@@ -30,12 +30,7 @@
 <div id="app"></div>
 <p><em><strong>Bagikan</strong></em> Twibbon app ini ke media sosial Anda.</p>
 <p class="result"></p>
-<p>
-<textarea id="output">
-Twibbon App adalah sebuah bingkai foto yang dibuat dan didesain sedemikian rupa dalam berbagai jenis dan ukuran, sering digunakan sebagai tanda keikutsertaan sebuah acara, dukungan, promosi, dan bentuk lainnya.
-</textarea> 
-<button id="paste">Paste</button>
-</p> 
+
 </div> <!-- container -->
 
 <footer>
@@ -52,16 +47,6 @@ $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that 
 $('body').delay(350).css({'overflow':'visible'});
 })
 </script>
-<script>
-function paste() {
-  let pasteText = document.querySelector("#output");
-  pasteText.focus();
-  document.execCommand("paste");
-  console.log(pasteText.textContent);
-}
 
-document.querySelector("#paste").addEventListener("click", paste);
-
-</script>
 </body>
 </html>
