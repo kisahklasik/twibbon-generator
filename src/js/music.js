@@ -1,12 +1,12 @@
-let videoElem = document.getElementById("video");
+let audiElem = document.getElementById("audio");
 let playButton = document.getElementById("playbutton");
 
 playButton.addEventListener("click", handlePlayButton, false);
-playVideo();
+playAudio();
 
-async function playVideo() {
+async function playAudio() {
   try {
-    await videoElem.play();
+    await audioElem.play();
     playButton.className = "playing";
   } catch(err) {
     playButton.className = "";
@@ -14,10 +14,10 @@ async function playVideo() {
 }
 
 function handlePlayButton() {
-	if (videoElem.paused) {
-  	playVideo();
+	if (audioElem.paused) {
+  	playAudio();
   } else {
-  	videoElem.pause();
+  	audioElem.pause();
     playButton.className = "";
   }
 }
