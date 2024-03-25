@@ -212,7 +212,7 @@ height: 5px;
 }
 hr::after {
 background: #fff;
-content: '\2606';
+content: '\262E';
 padding: 0 4px;
 position: relative;
 top: -13px;
