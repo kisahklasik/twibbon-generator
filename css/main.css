@@ -211,7 +211,7 @@ text-align: center;
 height: 5px;
 }
 hr::after {
-background: #fff;
+background: transparent;
 content: '\262E';
 padding: 0 4px;
 position: relative;
