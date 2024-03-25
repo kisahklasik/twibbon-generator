@@ -212,7 +212,7 @@ height: 5px;
 }
 hr::after {
 background: #fff;
-content: '❇️';
+content: '&#9824;';
 padding: 0 4px;
 position: relative;
 top: -13px;
