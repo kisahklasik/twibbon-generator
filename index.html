@@ -42,11 +42,17 @@ Manusia akan bahagia selama ia memilih untuk bahagia.
 </p>
 
 <!--<audio src="https://rockfm.rockfm.com.tr:9450/stream" autoplay></audio>-->
- <audio controls>
-<source src="https://rockfm.rockfm.com.tr:9450/stream" type="audio/mp3">
-<source src="https://rockfm.rockfm.com.tr:9450/stream" type="audio/ogg">
-<p>Your browser doesn't support HTML5 audio. Here is a <a href="https://rockfm.rockfm.com.tr:9450/stream">link to the audio</a> instead.</p> 
-</audio>   
+<audio id="my-audio">
+  <source src="https://rockfm.rockfm.com.tr:9450/stream" type="audio/mpeg" />
+  <source src="https://rockfm.rockfm.com.tr:9450/stream" type="audio/ogg" />
+  <!-- place fallback here as <audio> supporting browsers will ignore it -->
+  <p>Download<a href="https://rockfm.rockfm.com.tr:9450/stream">audiofile.mp3</a></p>
+</audio>
+
+<!-- custom play and pause buttons -->
+<button id="play">play</button>
+<button id="pause">pause</button>
+
     
 </div> <!-- container -->
 
