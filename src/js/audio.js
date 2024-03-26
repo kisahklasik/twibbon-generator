@@ -13,12 +13,12 @@ audio.addEventListener("timeupdate", () => {
   }
 });
 audio.addEventListener("ended", () => {
-  playBtn.textContent = "▶️";
+  playBtn.textContent = "<i class='far fa-play-circle'></i>";
 });
 
 playBtn.addEventListener("click", () => {
   audio.paused ? audio.play() : audio.pause();
-  playBtn.textContent = audio.paused ? "▶️" : "⏸️";
+  playBtn.textContent = audio.paused ? "<i class='far fa-play-circle'></i>" : "⏸️";
 });
 
 progressEl.addEventListener("change", () => {
