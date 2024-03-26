@@ -1,4 +1,4 @@
-const url = "https://upload.wikimedia.org/wikipedia/en/a/a9/Webern_-_Sehr_langsam.ogg";
+const url = "https://rockfm.rockfm.com.tr:9450/stream";
 const audio = new Audio(url);
 const playBtn = document.querySelector("button");
 const progressEl = document.querySelector('input[type="range"]');
