@@ -18,7 +18,7 @@ audio.addEventListener("ended", () => {
 
 playBtn.addEventListener("click", () => {
   audio.paused ? audio.play() : audio.pause();
-  playBtn.textContent = audio.paused ? "<i class='far fa-play-circle'></i>" : "⏸️";
+  playBtn.textContent = audio.paused ? "<i class='far fa-play-circle'></i>" : "<i class='far fa-pause-circle'></i>";
 });
 
 progressEl.addEventListener("change", () => {
