@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-
 html {
   background: #eff2f1;
 }
 
 body {
   margin: 0;
-  font-family: 'Roboto Mono', monospace;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16.5px;
   line-height: 1.2em;
 }
