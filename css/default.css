@@ -13,8 +13,6 @@ body {
 article {
   display: block;
   width: 600px;
-  max-width: 700px;
-  width: auto;
 }
 
 article {
@@ -87,4 +85,11 @@ a:active {
   margin-bottom: 1em;
   margin-left: 1em;
   border-radius: 15px;
+}
+
+@media (max-width: 700px) {
+article {
+  margin: 0 auto;
+  width: auto;
+}
 }
