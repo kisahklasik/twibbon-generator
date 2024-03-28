@@ -1,7 +1,7 @@
 // Register Service Worker
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function () {
-        navigator.serviceWorker.register('/src/pwa-sw.js')
+        navigator.serviceWorker.register('src/js/pwa-sw.js')
             .then(function (register) {
                 console.log('PWA service worker ready');
                 register.update();
